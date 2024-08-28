@@ -7,7 +7,8 @@ eureka:
       defaultZone: ${EUREKA_CLIENT_SERVICEURL_DEFAULTZONE:http://localhost:3333/eureka/}
     register-with-eureka: false
     fetch-registry: false
-
+app:
+  welcomeMsg: Hello from client config application
 #logging:
 #  level:
 #    root: off
